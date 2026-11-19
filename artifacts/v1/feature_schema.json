@@ -1,0 +1,75 @@
+{
+  "feature_order": [
+    "OverallQual",
+    "GrLivArea",
+    "FirstFlrSF",
+    "TotalBsmtSF",
+    "GarageCars",
+    "YearBuilt",
+    "YrSold",
+    "FullBath",
+    "TotRmsAbvGrd",
+    "Neighborhood",
+    "KitchenQual",
+    "CentralAir"
+  ],
+  "types": {
+    "OverallQual": "number",
+    "GrLivArea": "number",
+    "FirstFlrSF": "number",
+    "TotalBsmtSF": "number",
+    "GarageCars": "number",
+    "YearBuilt": "number",
+    "YrSold": "number",
+    "FullBath": "number",
+    "TotRmsAbvGrd": "number",
+    "Neighborhood": "string",
+    "KitchenQual": "string",
+    "CentralAir": "string"
+  },
+  "categories": {
+    "Neighborhood": [
+      "Blmngtn",
+      "Blueste",
+      "BrDale",
+      "BrkSide",
+      "ClearCr",
+      "CollgCr",
+      "Crawfor",
+      "Edwards",
+      "Gilbert",
+      "IDOTRR",
+      "MeadowV",
+      "Mitchel",
+      "NAmes",
+      "NPkVill",
+      "NWAmes",
+      "NoRidge",
+      "NridgHt",
+      "OldTown",
+      "SWISU",
+      "Sawyer",
+      "SawyerW",
+      "Somerst",
+      "StoneBr",
+      "Timber",
+      "Veenker",
+      "Other"
+    ],
+    "KitchenQual": [
+      "Ex",
+      "Gd",
+      "TA",
+      "Fa",
+      "Po"
+    ],
+    "CentralAir": [
+      "N",
+      "Y"
+    ]
+  },
+  "derived_features": [
+    "TotalSF",
+    "HouseAge"
+  ]
+}

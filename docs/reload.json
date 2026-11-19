@@ -1,0 +1,81 @@
+{
+  "inputs": [
+    {
+      "OverallQual": 5,
+      "GrLivArea": 1344,
+      "FirstFlrSF": 672,
+      "TotalBsmtSF": 672,
+      "GarageCars": 1,
+      "YearBuilt": 1920,
+      "YrSold": 2009,
+      "FullBath": 1,
+      "TotRmsAbvGrd": 6,
+      "Neighborhood": "IDOTRR",
+      "KitchenQual": "TA",
+      "CentralAir": "Y"
+    },
+    {
+      "OverallQual": 5,
+      "GrLivArea": 954,
+      "FirstFlrSF": 954,
+      "TotalBsmtSF": 911,
+      "GarageCars": 2,
+      "YearBuilt": 1976,
+      "YrSold": 2006,
+      "FullBath": 1,
+      "TotRmsAbvGrd": 6,
+      "Neighborhood": "CollgCr",
+      "KitchenQual": "TA",
+      "CentralAir": "Y"
+    },
+    {
+      "OverallQual": 8,
+      "GrLivArea": 2262,
+      "FirstFlrSF": 1482,
+      "TotalBsmtSF": 1482,
+      "GarageCars": 3,
+      "YearBuilt": 2003,
+      "YrSold": 2008,
+      "FullBath": 2,
+      "TotRmsAbvGrd": 10,
+      "Neighborhood": "Timber",
+      "KitchenQual": "Gd",
+      "CentralAir": "Y"
+    },
+    {
+      "OverallQual": 9,
+      "GrLivArea": 2184,
+      "FirstFlrSF": 1130,
+      "TotalBsmtSF": 1104,
+      "GarageCars": 3,
+      "YearBuilt": 2008,
+      "YrSold": 2009,
+      "FullBath": 2,
+      "TotRmsAbvGrd": 10,
+      "Neighborhood": "NridgHt",
+      "KitchenQual": "Ex",
+      "CentralAir": "Y"
+    },
+    {
+      "OverallQual": 6,
+      "GrLivArea": 1337,
+      "FirstFlrSF": 1337,
+      "TotalBsmtSF": 1237,
+      "GarageCars": 2,
+      "YearBuilt": 1998,
+      "YrSold": 2006,
+      "FullBath": 2,
+      "TotRmsAbvGrd": 5,
+      "Neighborhood": "Mitchel",
+      "KitchenQual": "TA",
+      "CentralAir": "Y"
+    }
+  ],
+  "predictions": [
+    111351.89,
+    136652.32,
+    310859.78,
+    348811.32,
+    172134.95
+  ]
+}

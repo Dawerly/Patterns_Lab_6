@@ -1,0 +1,96 @@
+{
+  "shape": [
+    1022,
+    13
+  ],
+  "missing_counts": {
+    "OverallQual": 0,
+    "GrLivArea": 0,
+    "FirstFlrSF": 0,
+    "TotalBsmtSF": 0,
+    "GarageCars": 0,
+    "YearBuilt": 0,
+    "YrSold": 0,
+    "FullBath": 0,
+    "TotRmsAbvGrd": 0,
+    "Neighborhood": 0,
+    "KitchenQual": 0,
+    "CentralAir": 0,
+    "SalePrice": 0
+  },
+  "missing_fraction": {
+    "OverallQual": 0.0,
+    "GrLivArea": 0.0,
+    "FirstFlrSF": 0.0,
+    "TotalBsmtSF": 0.0,
+    "GarageCars": 0.0,
+    "YearBuilt": 0.0,
+    "YrSold": 0.0,
+    "FullBath": 0.0,
+    "TotRmsAbvGrd": 0.0,
+    "Neighborhood": 0.0,
+    "KitchenQual": 0.0,
+    "CentralAir": 0.0,
+    "SalePrice": 0.0
+  },
+  "target": {
+    "count": 1022.0,
+    "mean": 181312.6927592955,
+    "std": 77617.46100520641,
+    "min": 34900.0,
+    "25%": 130000.0,
+    "50%": 165000.0,
+    "75%": 215000.0,
+    "max": 745000.0
+  },
+  "correlations": {
+    "OverallQual": 0.7847199696514466,
+    "GrLivArea": 0.6892376059288235,
+    "FirstFlrSF": 0.5831316380775368,
+    "TotalBsmtSF": 0.5900174007850268,
+    "GarageCars": 0.6426887093726487,
+    "YearBuilt": 0.5122060671111749,
+    "YrSold": -0.012760857874913503,
+    "FullBath": 0.5491636134225698,
+    "TotRmsAbvGrd": 0.5196336934312519,
+    "SalePrice": 1.0
+  },
+  "neighborhood_counts": {
+    "NAmes": 155,
+    "CollgCr": 109,
+    "OldTown": 82,
+    "Edwards": 79,
+    "Somerst": 57,
+    "NWAmes": 54,
+    "Gilbert": 52,
+    "NridgHt": 50,
+    "Sawyer": 48,
+    "BrkSide": 41,
+    "SawyerW": 38,
+    "Crawfor": 38,
+    "Mitchel": 34,
+    "NoRidge": 28,
+    "Timber": 27,
+    "IDOTRR": 24,
+    "StoneBr": 20,
+    "ClearCr": 19,
+    "SWISU": 16,
+    "Blmngtn": 14,
+    "BrDale": 12,
+    "MeadowV": 10,
+    "Veenker": 8,
+    "NPkVill": 6,
+    "Blueste": 1
+  },
+  "rare_neighborhoods": {
+    "MeadowV": 10,
+    "Veenker": 8,
+    "NPkVill": 6,
+    "Blueste": 1
+  },
+  "category_counts": {
+    "Neighborhood": 25,
+    "KitchenQual": 4,
+    "CentralAir": 2
+  }
+}

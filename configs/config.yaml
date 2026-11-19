@@ -1,0 +1,7 @@
+random_state: 42
+alpha: 10.0
+n_estimators: 200
+max_depth: null
+scalers: [standard, minmax]
+models: [dummy, ridge, forest]
+rare_threshold: 0.01

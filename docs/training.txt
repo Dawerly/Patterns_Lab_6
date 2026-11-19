@@ -1,0 +1,12 @@
+dummy none True all 58741.92
+ridge standard False all 19638.94
+ridge standard False 15 20224.52
+ridge standard True all 19636.72
+ridge standard True 15 20063.18
+ridge minmax False all 21541.16
+ridge minmax False 15 22399.43
+ridge minmax True all 21259.87
+ridge minmax True 15 22109.44
+forest none True all 16721.86
+Best: {'model': 'forest', 'scaler': 'none', 'added': True, 'k': 'all', 'train_mae': 7352.796322942875, 'train_rmse': 12641.481104875704, 'train_r2': 0.9734476961571797, 'val_mae': 16721.85779571646, 'val_rmse': 24835.420200536395, 'val_r2': 0.901799808028324}
+Test: {'mae': 17266.87363394216, 'rmse': 26899.552778278554, 'r2': 0.9049204066992638}
